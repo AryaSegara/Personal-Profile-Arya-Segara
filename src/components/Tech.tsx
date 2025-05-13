@@ -1,4 +1,6 @@
-import { BiLogoDocker, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi"
+import { BiLogoDocker, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoTailwindCss, BiLogoTypescript, BiLogoJava,
+    BiLogoReact, BiLogoSpringBoot
+ } from "react-icons/bi"
 import { motion } from "framer-motion";
 
 const Tech = () => {
@@ -17,6 +19,23 @@ const Tech = () => {
         className="text-4xl font-light text-white md:text-6xl">Technologies</motion.h1>
 
       <div className="flex flex-wrap items-center justify-center gap-10 p-5">
+
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
+        >
+          <BiLogoJava className="cursor-pointer text-[80px] text-amber-700 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px] " />
+        </motion.div>
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
+        >
+          <BiLogoSpringBoot className="cursor-pointer text-[80px] text-green-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px] " />
+        </motion.div>
 
         <motion.div
           variants={variants}
@@ -65,6 +84,14 @@ const Tech = () => {
           transition={{ duration: 0.5 }}
         >
           <BiLogoPostgresql className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px] " />
+        </motion.div>
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
+        >
+          <BiLogoReact className="cursor-pointer text-[80px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px] " />
         </motion.div>
       </div>
     </div>
