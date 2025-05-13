@@ -17,8 +17,8 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center ">
-          <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-5xl font-light md:text-7xl">Imals Fao</h1>
-          <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent opacity-80 text-2xl font-light md:text-3xl">FullStack Web Developer</h3>
+          <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-5xl font-light md:text-7xl">Arya Segara</h1>
+          <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent opacity-80 text-2xl font-light md:text-3xl">Junior Web Developer | Java Developer | FullStack Web Developer | Back-End Developer | Node Js</h3>
           <p className="md:text-base text-pretty text-sm text-gray-400">
             Hi, I'm Imals Fao, a full-stack web programmer specializing in modern, interactive applications.
             I build responsive front-ends with React.js and scalable back-ends with Node.js and MongoDB/PostgreSQL, delivering seamless, user-focused solutions.
