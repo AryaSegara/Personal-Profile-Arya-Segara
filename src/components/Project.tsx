@@ -12,6 +12,8 @@ interface ScrollRevealProps {
   children: React.ReactNode;
 }
 
+
+// List Project
 const Project: React.FC = () => {
   const projectData: ProjectData[] = [
     {
